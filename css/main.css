@@ -3571,12 +3571,14 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
-			#footer ul li {
-				border-left: 0;
-				margin: 1rem 0 0 0;
-				padding-left: 0;
-				display: block;
-			}
+			/* #footer ul li {
+				border-left: solid 2px;
+				display: inline-block;
+				line-height: 1;
+				margin-left: 1rem;
+				padding-left: 1rem;
+\
+			} */
 
 				#footer ul li:first-child {
 					margin-top: 0;
