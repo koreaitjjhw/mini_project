@@ -2962,9 +2962,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			header br {
-				/* display: none; */
-			}
+			/* header br {
+				display: none;
+			} */
 
 		}
 
@@ -3204,18 +3204,18 @@ input, select, textarea {
 
 		@media screen and (max-width: 980px) {
 
-			#header {
-				/* height: 14rem;
-				padding-bottom: 4rem; */
-			}
+			/* #header {
+				height: 14rem;
+				padding-bottom: 4rem;
+			} */
 
 		}
 
 		@media screen and (max-width: 736px) {
 
-			#header {
-				/* padding-bottom: 3rem; */
-			}
+			/* #header {
+				padding-bottom: 3rem;
+			} */
 
 				#header .logo {
 					font-size: 1.75rem;

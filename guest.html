@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Mini Project</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+  </head>
+  <body class="is-preload">
+    <!-- Wrapper -->
+    <div id="wrapper">
+      <!-- Header -->
+      <header id="header">
+        <a href="index.html" class="logo">JEON HYUN WOO</a>
+      </header>
+
+      <!-- Nav -->
+      <nav id="nav">
+        <ul class="links">
+          <li><a href="index.html">about</a></li>
+          <li><a href="story.html">Story</a></li>
+          <li><a href="elements.html">Elements</a></li>
+          <li class="active"><a href="guest.html">guest</a></li>
+        </ul>
+      </nav>
+
+      <!-- Main -->
+      <div id="main">
+        <!-- Posts -->
+        <section class="post">
+          <header class="major">
+            <h1>방명록</h1>
+          </header>
+          <form id="postForm" action="/adsfdasf" method="post">
+            <div class="row gtr-uniform">
+              <div class="col-6 col-12-xsmall">
+                <input type="text" id="postName" placeholder="Name" />
+              </div>
+
+              <div class="col-12">
+                <!-- <textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea> -->
+                <textarea id="postContent" placeholder="Message"></textarea>
+              </div>
+
+              <div class="col-12">
+                <ul class="actions">
+                  <li>
+                    <input type="submit" value="Send Message" class="primary" />
+                  </li>
+                  <li><input type="reset" value="Reset" /></li>
+                </ul>
+              </div>
+            </div>
+          </form>
+
+          <div class="table-wrapper">
+            <table>
+              <colgroup>
+                <col style="width: 10%" />
+                <col style="width: 30%" />
+                <col style="width: 50%" />
+                <col style="width: 10%" />
+              </colgroup>
+              <thead>
+                <tr>
+                  <th>No</th>
+                  <th>Name</th>
+                  <th>Message</th>
+                  <th>Del</th>
+                </tr>
+              </thead>
+              <tbody id="postList"></tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+
+      <!-- footer -->
+      <div id="footer">
+        <ul>
+          <li>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+          </li>
+          <li>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <div class="bg"></div>
+    </div>
+  </body>
+</html>
